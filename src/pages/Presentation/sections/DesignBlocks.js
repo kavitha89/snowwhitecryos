@@ -34,7 +34,6 @@ import { useState } from "react";
 
 function DesignBlocks() {
   const [renderData, setRenderData] = useState([]);
-
   setTimeout(() => {
     const tempRenderData = data.map(({ title, description, items }) => (
       <Grid container spacing={3} sx={{ mb: 10 }} key={title}>

@@ -4,25 +4,26 @@ import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 
 // Sections
-import Typography from "layouts/sections/elements/typography";
+// import Typography from "layouts/sections/elements/typography";
+import Presentation from "layouts/pages/presentation";
 
 const routes = [
   {
     name: "Profile",
-    route: "/sections/elements/typography",
-    component: <Typography />,
+    route: "/profile",
+    component: <Presentation />,
     icon: <AccountCircleIcon />,
   },
   {
     name: "Ice Coins",
-    route: "/sections/elements/typography",
-    component: <Typography />,
+    route: "/icecoins",
+    component: <Presentation />,
     icon: <MonetizationOnIcon />,
   },
   {
     name: "Carbon Footprint",
-    route: "/sections/elements/typography",
-    component: <Typography />,
+    route: "/carbonfp",
+    component: <Presentation />,
     icon: <AnalyticsIcon />,
   },
   // {
